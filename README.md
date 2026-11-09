@@ -2,5 +2,6 @@ This repository contains my TypeScript assignment, covering fundamental and inte
 
 Blog Posts
 
-- access-modifier.md
-- type-narrowing.md
+- [Type narrowing blog](type-narrowing.md)
+
+- [Access modifier blog](access-modifier.md)
