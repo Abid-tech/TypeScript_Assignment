@@ -1,4 +1,4 @@
-Title : Explation of how Access Modifiers (public, private, protected, and readonly) work in TypeScript OOP with examples.
+## Title : Explation of how Access Modifiers (public, private, protected, and readonly) work in TypeScript OOP with examples.
 
 One important feature of OOP is access modifiers, which control how class properties and methods can be accessed or modified. TypeScript provides four commonly used modifiers: public, private, protected, and readonly.
 
