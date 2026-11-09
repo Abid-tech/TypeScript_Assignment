@@ -1,4 +1,4 @@
-Title: What is Type Narrowing in TypeScript? Provide practical examples using typeof, instanceof, and the in operator.
+## Title: What is Type Narrowing in TypeScript? Provide practical examples using typeof, instanceof, and the in operator.
 
 Type narrowing is a process of reducing a variable's possible types by checking its actual value or properties. It allows TypeScript to understand which type is being used at a particular point in the code.
 
