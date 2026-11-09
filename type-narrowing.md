@@ -11,6 +11,7 @@ Examples:
 type valueType = string | number | boolean
 type returnType = string | number
 
+``` TypeScript
 function processInput(value:valueType):returnType{
 
     if(typeof(value)=== 'string'){
@@ -30,15 +31,18 @@ function processInput(value:valueType):returnType{
     }
 
 }
+```
 
 
 2. Using instanceof
 
 The instanceof operator checks whether an object belongs to a particular class.
 
+
+``` TypeScript
 class Dog {
     bark(): void {
-        console.log("Woof!");
+        console.log("Bark!");
     }
 }
 
@@ -55,11 +59,12 @@ function makeSound(animal: Dog | Cat): void {
         animal.meow();
     }
 }
-
+```
 3. Using the in Operator
 
 The in operator checks whether a particular property exists in an object.
 
+``` TypeScript
 type Admin = { name: string; permissions: string[] };
 type User = { name: string; email: string };
 
@@ -70,6 +75,6 @@ function showInfo(person: Admin | User): void {
         console.log(person.email);
     }
 }
-
+```
 
 In conclusion, by using typeof, instanceof, and the in operator, developers can handle different types confidently while reducing unexpected errors.
